@@ -242,7 +242,7 @@
     }
   }
 
-  .nav-link{
+  .nav-link.card:hover{
     color:white;
   }
 

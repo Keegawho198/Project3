@@ -33,7 +33,7 @@ body{
 .Junior-logo{
     /* mix-blend-mode: exclusion; */
     /* mix-blend-mode: darken; */
-    /* mix-blend-mode: multiply; */
+    mix-blend-mode: multiply;
 }
 
 
