@@ -1,0 +1,44 @@
+/* .table {
+  width: 100%;
+  margin-top: 129px;
+  margin-bottom: 1rem;
+  color: #212529;
+} */
+
+/* .navbar{
+    z-index: 9999;
+} */
+
+
+
+/* element.style {
+  background-color: #f4f0ed;
+}
+.navbar {
+  z-index: 9999;
+} */
+.fixed-top {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  /* z-index: 1030; */
+}
+
+.containerSection {
+  border: 3px solid #ccc;
+  margin-top: 50px;
+}
+
+.junior{
+
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
+}
