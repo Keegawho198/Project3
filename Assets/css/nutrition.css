@@ -1,0 +1,66 @@
+body{
+  background-image: url("../img/Nutrition.jpg");
+  background-attachment: fixed;  
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+/* element.style {
+  background-color: #f4f0ed;
+}
+.navbar {
+  z-index: 9999;
+} */
+.fixed-top {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  /* z-index: 1030; */
+}
+
+.containerSection {
+  border-bottom: 3px solid #ccc;
+  margin-top: 50px;
+}
+
+/* .junior{
+
+} */
+
+#programImg{
+  mix-blend-mode: multiply;
+}
+
+.Junior-logo{
+    /* mix-blend-mode: exclusion; */
+    /* mix-blend-mode: darken; */
+    mix-blend-mode: multiply;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
+}
+
+/* for bulletpoints and texts inside the programs section */
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+p{
+  font-family: Futura PT;
+  color: #062639;
+}
+
+h1{
+  font-family: Futura PT;
+  color: #062639;
+}
