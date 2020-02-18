@@ -1,24 +1,29 @@
-body{
-  background-image: url("../img/Nutrition.jpg");
-  background-attachment: fixed;  
-  background-size: cover;
-  background-repeat: no-repeat;
+
+body {
 
 }
 
-
-/* element.style {
-  background-color: #f4f0ed;
-}
-.navbar {
-  z-index: 9999;
+/* .bg {
+  width: 100px;
+  height: 100%;
 } */
+
+
+
+
 .fixed-top {
-  position: relative;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
   /* z-index: 1030; */
+  border-style: solid;
+  /* border-bottom: 5px; */
+  border-top: 1px;
+  border-right: 1000px;
+  border-left: 1px;
+  border-color: gray;
+
 }
 
 .containerSection {
