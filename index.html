@@ -7,44 +7,147 @@
     <link rel="stylesheet" type="text/css" href="Assets 2/css/style2.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Navbar title-->
-    <title>Login</title>
-  <body>
-    <div class="row no-gutter">
-        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
-        <div class="col-md-8 col-lg-6">
-          <div class="login d-flex align-items-center py-5">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-9 col-lg-8 mx-auto">
-                  <h3 class="login-heading mb-4">Welcome back!</h3>
-                  <form>
-                    <div class="form-label-group">
-                      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                      <label for="inputEmail">Email address</label>
-                    </div>
-    
-                    <div class="form-label-group">
-                      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                      <label for="inputPassword">Password</label>
-                    </div>
-    
-                    <div class="custom-control custom-checkbox mb-3">
-                      <input type="checkbox" class="custom-control-input" id="customCheck1">
-                      <label class="custom-control-label" for="customCheck1">Remember password</label>
-                    </div>
-                    <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
-                    <div class="text-center">
-                      <a class="small" href="#">Forgot password?</a></div>
-                  </form>
-                </div>
-              </div>
+    <title>Dashboard</title>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#f4f0ed">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+                <img src="./Assets 2/images/logo.jpg" alt="" id="logo">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nutrition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Store</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- Page Content -->
+      
+      <header>
+        
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="theme">
+          <source src="./Assets 2/images/y2mate.com - anthony_joshua_workout_motivation_2018_BFWW90G5SGc_1080p.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-3">Aim to be at the top</h1>
+              <h2 class="lead mb-0">With Peak Condition</h2>
+              <br>
+              
+              <button type="button" class="btn btn-primary btn-lg">Join Us</button>
             </div>
           </div>
         </div>
-      </div>
-    </div>    
+      </header>
 
-</body>
+      
+      
+      <section class="my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1 text-align='center'>Who We Are</h1>
+              <p>At Peak Condition, we aim to guide you towards the pinnacle of sports performance. We specialise in individualised strength and conditioning programs for sub-elite to elite level athletes. Peak Condition focuses on optimising sports performance while reducing the risk of Injury.</p>
+            
+             
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      
+      <h1 align='center'>What We Offer</h1>
+      <section class="pricing py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Free Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body" style="height: 420px;">
+                  <h5 class="card-title  text-uppercase text-center">Junior Programs</h5>
+        
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Develop Fundamental Movements - Agility, Balance and Coordination</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Individual or Team-based Development Program.</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Suitable For Ages Under 16 Years-Old.</li>
+                 
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- Plus Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body" style="height: 420px;">
+                  <h5 class="card-title  text-uppercase text-center">Individual Development</h5>
+                
+                  <hr>
+                  <ul class="fa-ul">
+          
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Individualised Strength and Conditioning Programs</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Macronutrient Coaching</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>One-on-One Coaching</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>USuitable for Individuals Looking To Improve Athletic Performance. </li>
+
+                  </ul>
+                  <br>
+               
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body"  style="height: 420px;">
+                  <h5 class="card-title  text-uppercase text-center">Open Age Programs</h5>
+            
+                  <hr>
+                    <ul class="fa-ul">
+                        
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Individualised Strength and Conditioning Programs.</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Sport Specific Skills Acquisition. </li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Macronutrient Coaching </li>
+                      
+                    </ul>
+                    <br>
+                    <br>
+                    <br> 
+                       
+               
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+
+          
+        </div>
+      </section>
+      
 </html>
 
       
